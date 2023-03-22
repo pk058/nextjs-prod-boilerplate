@@ -1,0 +1,139 @@
+.auth_wrapper{
+    background: #FFFFFF;
+box-shadow: 0px 15px 35px rgba(60, 66, 87, 0.08);
+border-radius: 20px;
+}
+
+.auth_logo_icon{
+    width: 52px;
+height: 32px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.input{
+    background: #FFFFFF;
+border: 1px solid #D0D5DD;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #667085;
+padding: 10px 14px
+}
+
+.input:hover{
+    border: 1px solid #84CAFF;
+box-shadow: 0px 1px 2px rgba(209, 233, 255, 0.05), 0px 0px 0px 4px #D1E9FF;
+}
+
+
+.input:focus{
+    border: 1px solid #84CAFF;
+box-shadow: 0px 1px 2px rgba(209, 233, 255, 0.05), 0px 0px 0px 4px #D1E9FF;
+}
+
+
+
+
+
+.in_input_header{
+background: #FFFFFF;
+border: 1px solid #D0D5DD;
+border-right: none;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px 0px 0px 8px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #667085;
+padding: 10px 14px
+}
+
+.in_input{
+    background: #FFFFFF;
+border: 1px solid #D0D5DD;
+border-radius: 0px 8px 8px 0px;
+padding: 10px 14px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #667085;
+}
+
+
+.in_input_wrapper:hover{
+    border-radius: 8px;
+    border: 1px solid #84CAFF;
+box-shadow: 0px 1px 2px rgba(209, 233, 255, 0.05), 0px 0px 0px 4px #D1E9FF;
+}
+
+.in_input_wrapper:focus{
+       border-radius: 8px;
+    border: 1px solid #84CAFF;
+box-shadow: 0px 1px 2px rgba(209, 233, 255, 0.05), 0px 0px 0px 4px #D1E9FF;
+}
+
+
+.personal_details_footer{
+    position: fixed;
+    bottom: 0;
+    background: #FFFFFF;
+box-shadow: 0px -15px 15px -4px rgba(16, 24, 40, 0.02);
+border-radius: 15px 15px 0px 0px;
+padding: 32px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+color: #000000;
+left: 80px;
+right: 80px;
+}
+
+
+.chip{
+    background: #F2F4F7 !important;
+    font-weight: 500 !important;
+font-size: 14px !important;
+line-height: 20px !important;
+color: #344054 !important;
+}
+
+
+
+.personal_details_card{
+    background: #FFFFFF;
+border: 1px solid #EAECF0;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 10px;
+}
+
+.personal_details_card_avatar{
+    background: #F9FAFB;
+border-radius: 200px;
+height: 60px;
+width: 60px;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+color: #475467;
+
+}
+
+.personal_details_card_skill{
+    font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+color: #344054;
+background: #F2F4F7;
+border-radius: 16px;
+padding: 2px 8px
+}
